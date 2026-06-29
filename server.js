@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const { connectDB, sequelize } = require('./config/db');
 const { Product, User } = require('./models');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 const app = express();
 
